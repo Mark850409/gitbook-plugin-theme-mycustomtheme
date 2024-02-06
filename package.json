@@ -1,0 +1,16 @@
+{
+  "name": "@GitbookNPMProject/gitbook-plugin-theme-mycustomtheme",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://markweb.idv.tw:10443/gitbooknpmproject/gitlabnpmcustomtheme"
+  },
+  "scripts": {
+    "build:production": "node --version",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "@GitbookNPMProject:registry": " https://markweb.idv.tw:10443/api/v4/projects/156/packages/npm/"
+  },
+  "version": "1.0.3"
+}
